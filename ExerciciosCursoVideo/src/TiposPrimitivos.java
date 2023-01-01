@@ -21,7 +21,6 @@ public class TiposPrimitivos {
 /*
  * Para definir a nota como float, podemos utilizar o float ou f
  * %.2f --> Duas casas ou %f
- * 
  */
 
 
