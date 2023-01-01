@@ -6,11 +6,13 @@ public class TiposPrimitivos {
     
         String nome = "Maria";
         float nota = 8.5f;
-        float nota1 = (float) 8.5;
+        int nota1 = (int) 8.5;
         
         //Recebendo do teclado
         String nome2 = teclado.nextLine();
         float nota3 = teclado.nextFloat();
+
+        String notaS = Integer.toString(nota1); //Tem tbem o parseInt
         
         System.out.println("A nota é: " + nota);
         System.out.printf("Oi %s, sua nota é: %.2f", nome, nota);
