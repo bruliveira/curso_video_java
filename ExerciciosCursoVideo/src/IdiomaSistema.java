@@ -7,6 +7,3 @@ public class IdiomaSistema {
     System.out.println("O idioma do sitema é: " + loc.getDisplayLanguage() + "-" + loc.getLanguage());
     }
 }
-
-/* 
- */
