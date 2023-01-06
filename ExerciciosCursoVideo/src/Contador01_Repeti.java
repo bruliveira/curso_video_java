@@ -20,5 +20,11 @@ public class Contador01_Repeti {
             c++;
         }
         System.out.println("Contagem: " + contagem);
+
+        //Um outro
+        System.out.println("\nUtilizando o for");
+        for ( int i = 1; i <= 10; i+= 2){
+            System.out.println("Contador: " + i);
+        }
     }
 }

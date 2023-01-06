@@ -6,5 +6,14 @@ public class Repeticao01_Repeat {
             System.out.println("Cambalhota " +cc);
             cc++;
         }while (cc <= 4);
+
+        //Utilizando o FOR
+        System.out.println("\n\nTESTANDO O FOR\n");
+        for (int c = 1; c <= 15; c+=2){
+            System.out.println("Resultado: " + c);
+        }
+        for (int a = 30; a >= 15; a-=2){
+            System.out.println("Resultado inverso:  " + a);
+        }
     }
 }
