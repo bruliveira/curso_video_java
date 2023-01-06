@@ -15,6 +15,6 @@ public class CalculadoraOperadores {
         
         System.out.printf("\nDivisão: %.2f", div);
         System.out.printf("\nRaiz: %.2f", raiz);
-        System.out.println("\nApos: " + ar);
+        System.out.println("\nApós: " + ar);
     }
 }
